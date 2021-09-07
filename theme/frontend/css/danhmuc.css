@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "fontspa";
+  src: url(../fonts/UVNKieu_B.TTF);
+}
+
+.content {
+  padding: 0px;
+}
+
+.content-title {
+  font-size: 1.125rem;
+}
+
+.content-text {
+  font-size: 0.875rem;
+}
+
+.place {
+  float: right;
+  font-style: italic;
+  font-size: 0.875rem;
+}
+
+.new {
+  position: relative;
+}
+
+.title-content {
+  font-family: "fontspa";
+  margin-top: 12px;
+  color: #3d0f0f;
+}
+
+span i,
+label {
+  color: #999;
+}
+
+.main-new {
+  background-image: linear-gradient(0, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  width: 100%;
+  padding: 35px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.main-new h4 {
+  color: #ffb628;
+  font-size: 1.125rem;
+}
+
+.main-new p {
+  color: #fdfbfb;
+  font-size: 0.875rem;
+}
+.page-link {
+  background-color: #660000;
+  color: #ffcc33;
+}
+.pagination {
+  margin-top: 40px;
+}
+@media (max-width: 991px) {
+  .main-new p {
+    display: none;
+  }
+}
+
+/* tin tức mới nhất */
+
+.news-content {
+  margin-bottom: 32px;
+}

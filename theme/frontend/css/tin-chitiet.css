@@ -1,0 +1,46 @@
+.topic {
+  margin: 0px 5px;
+}
+
+.new-topic h6 {
+  font-size: 0.875rem;
+  color: #fdfbfb;
+}
+.new-topic h6:hover {
+  color: red;
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+.new-topic .new-topic-content {
+  color: #999;
+  font-size: 0.875rem;
+}
+@font-face {
+  font-family: "fontspa";
+  src: url(../fonts/UVNKieu_B.TTF);
+}
+.text {
+  color: #7b0200;
+  margin-top: 10px;
+}
+p {
+  margin-top: 15px;
+}
+.like {
+  display: flex;
+  margin-top: 30px;
+}
+.fb-like {
+  margin-left: 15px;
+  margin-top: 4px;
+}
+.logo-zalo {
+  margin-left: 13px;
+  border-radius: 10px;
+}
+
+.text-black {
+  margin-top: 0px;
+}
